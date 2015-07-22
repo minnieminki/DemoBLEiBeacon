@@ -14,6 +14,7 @@
 		8481248E1B5F8B0500C958DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8481248D1B5F8B0500C958DF /* Images.xcassets */; };
 		848124911B5F8B0500C958DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481248F1B5F8B0500C958DF /* LaunchScreen.xib */; };
 		8481249D1B5F8B0500C958DF /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481249C1B5F8B0500C958DF /* DemoTests.m */; };
+		848124A71B5F929A00C958DF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848124A61B5F929A00C958DF /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		848124961B5F8B0500C958DF /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8481249B1B5F8B0500C958DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8481249C1B5F8B0500C958DF /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		848124A61B5F929A00C958DF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848124A71B5F929A00C958DF /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		848124741B5F8B0500C958DF = {
 			isa = PBXGroup;
 			children = (
+				848124A61B5F929A00C958DF /* CoreBluetooth.framework */,
 				8481247F1B5F8B0500C958DF /* Demo */,
 				848124991B5F8B0500C958DF /* DemoTests */,
 				8481247E1B5F8B0500C958DF /* Products */,
@@ -414,6 +418,7 @@
 				848124A21B5F8B0500C958DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		848124A31B5F8B0500C958DF /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				848124A51B5F8B0500C958DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
